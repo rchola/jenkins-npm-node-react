@@ -5,8 +5,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
-      <h2>This is a jenkins triggered build</h2>
+      <h1>Olá! Bem vindo!</h1>
+      <h2>Este é um exemplo de uma esteira de CI/CD controlada pelo Jenkis via gatilho (GitHub Trigger)</h2>
+      <hr>
+      <h3> Copyright (c) 2022 by SPTECH SCHOOL </h3> 
     </div>
   );
 }
