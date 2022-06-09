@@ -3,7 +3,7 @@ pipeline {
      stages {
         stage("Build - Estágio 1") {
             steps {
-                sh "sudo cd /var/lib/jenkins/workspace/Teste-React"
+                sh "cd /var/lib/jenkins/workspace/Teste-React"
                 sh "sudo npm install"
                 sh "sudo npm run build"
             }
